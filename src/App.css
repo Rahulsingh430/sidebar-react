@@ -1,0 +1,44 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+
+  background-image: linear-gradient(
+    to right,
+    rgb(42, 191, 174),
+    rgb(131, 154, 197)
+  );
+}
+
+.navbar {
+  width: 100vw;
+  height: 60px;
+  background-image: linear-gradient(
+    to left,
+    rgb(81, 219, 203),
+    rgb(118, 239, 158)
+  );
+  display: flex;
+  gap: 2rem;
+  padding: 2px;
+}
+.main_page {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.sidebar_pannel {
+  height: 100vh;
+
+  background-color: aliceblue;
+}
+.main_pannel {
+  height: 100vh;
+
+  background-color: white;
+  border: 1px solid black;
+}
+.sec_one {
+  width: 100%;
+ 
+  background-color: black;
+  border: 1px solid white;
+}
